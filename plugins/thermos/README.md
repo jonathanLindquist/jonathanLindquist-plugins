@@ -74,3 +74,5 @@ Future upstream refreshes should be handled through JP-0003 so provider-specific
 ## License And Attribution
 
 Thermos is ported from Cursor's MIT-licensed `cursor/plugins` repository. The upstream MIT license is preserved in `LICENSE`.
+
+Additional provenance, source-commit, and local-modification details are recorded in `NOTICE.md`.
