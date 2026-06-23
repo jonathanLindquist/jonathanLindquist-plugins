@@ -1,13 +1,13 @@
 ---
 name: thermos
-description: "Run both Thermos review passes sequentially in the main Codex agent, then synthesize their findings. Use for thermos, double thermo review, or combined bug/security and code-quality branch audits."
+description: "Run both Thermos review passes sequentially in the current agent, then synthesize their findings. Use for thermos, double thermo review, or combined bug/security and code-quality branch audits."
 ---
 
 # Thermos
 
-Run the two Thermos review passes in the main Codex agent, then synthesize their results.
+Run the two Thermos review passes in the current agent, then synthesize their results.
 
-This Codex port intentionally does not use Cursor `Task` subagents or the upstream `agents/` manifest field. Native Codex multi-agent orchestration is deferred to JP-0003.
+This provider-neutral package intentionally does not depend on provider-specific subagent or background-task manifests. Keep provider-specific launch, display, and marketplace metadata in provider manifest files; keep the review workflow in this shared skill.
 
 ## Workflow
 
