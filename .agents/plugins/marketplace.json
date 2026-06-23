@@ -1,0 +1,20 @@
+{
+  "name": "jonathanlindquist-plugins",
+  "interface": {
+    "displayName": "Jonathan Lindquist Plugins"
+  },
+  "plugins": [
+    {
+      "name": "thermos",
+      "source": {
+        "source": "local",
+        "path": "./plugins/thermos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
