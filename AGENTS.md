@@ -48,3 +48,7 @@ This repository is a local provider-agnostic plugin marketplace, not a one-plugi
 - Codex and Claude Code are first-class destinations for new plugins. Structure future provider support, such as Cursor, as an additional provider wrapper around the shared payload rather than a fork of shared skills or assets.
 - Parameterize future scaffold/import scripts by plugin name and source path or URL; do not hard-code the Thermos plugin path into shared automation.
 - Do not implement `HANDOFF.md` directly. Turn the reviewed plan into a ticket first, then work from the Kanban card and linked plan.
+
+### Verify, don't Trust
+
+When producing an analysis or summarization of something gleaned from a resource (web page, MCP call, user-provided document), do not trust a memory or retained summary of that resource. Always retrieve the resource afresh and compare it to the summary or analysis you are preparing. When comparing, do so in an adversarial way: you are fact-checking work that you suspect at the start contains errors and hallucinations.
